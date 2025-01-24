@@ -45,7 +45,7 @@
                 
                 welcome.style.display="flex"
 
-            }, 5000);
+            }, 1000);
 
 
         }else{
@@ -60,7 +60,7 @@
 
                 incorrect.style.display="flex";
 
-            }, 5000);
+            }, 1000);
 
             
 
