@@ -26,7 +26,7 @@ body{
 }
 
 .login{
-    font-size:6rem;
+    font-size:4rem;
     font-weight: 900;
 
     color: white;
@@ -146,7 +146,7 @@ body{
 
 
 .welcome{
-    font-size:5rem;
+    font-size:4rem;
     font-weight: 900;
 
     color: white;
@@ -180,4 +180,21 @@ body{
 
     color: white;
     text-align: center;
+}
+
+
+
+
+.demo-password{
+    margin-top: 2rem;
+    color: rgb(163, 163, 163);
+
+    font-size: 1.4rem;
+    
+}
+
+.demo-password span{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: courier;
 }

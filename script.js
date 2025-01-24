@@ -20,7 +20,7 @@
     const text = document.querySelector("#text")
 
     
-    var correctpassword = "dada"
+    var correctpassword = "admin"
 
 
 
