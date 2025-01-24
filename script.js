@@ -15,6 +15,9 @@
 
     var btn = document.querySelector("#incorrect-btn")
 
+    const name = document.querySelector("#loading-name");
+
+    const text = document.querySelector("#text")
 
     
     var correctpassword = "dada"
@@ -23,8 +26,11 @@
 
     enter.addEventListener("click", function(){
 
+        const demo =text.value;
+        name.textContent = demo
+
+
         const value = password.value;
-        console.log(value)
 
         login.style.display="none";
 
@@ -62,6 +68,8 @@
         };
         
 
+
+
     })
 
 
@@ -72,3 +80,5 @@
         login.style.display="flex"
 
     })
+
+
